@@ -1,0 +1,280 @@
+speed 50
+t=write 'Whats the diameter of the left side? Whats one place I want to go?'
+#375 & Hawaii
+t=write 'Are all the sides equal? Whats my favorite food?'
+#no & enchiladas michoacanas
+t=write 'How many sibling do I have?'
+#one
+t=write 'Whats my favorite color?'
+#pink
+forever ->
+  pen pink,5
+  if pressed 'W'
+    fd 1
+  if pressed 'D'
+     rt 2
+  if pressed 'A'
+    lt 2
+  if pressed 'S'
+    bk 1
+fd 200
+lt 90
+fd 200
+pen black, 10
+fd 50
+lt 90
+fd 375
+lt 90
+fd 375
+pen white, .01
+fd 25
+pen black, 10
+fd 50
+lt 90
+fd 375
+lt 90
+fd 375
+bk 100
+lt 90
+pen black, 5
+fd 50
+rt 90
+fd 125
+bk 12.5
+lt 90
+fd 50
+rt 90
+fd 25
+lt 90 
+fd 26
+bk 26
+rt 90
+bk 50
+lt 90
+fd 26
+lt 90
+fd 50
+pen white, .01
+lt 90
+fd 76
+pen black, 5
+rt 90
+fd 95
+rt 90
+fd 26
+pen white, .01
+bk 76
+pen black, 10 
+lt 90
+fd 80
+pen black, 5
+rt 90
+fd 75
+pen white, .01
+bk 75
+pen black, 10
+lt 90
+fd 137.5
+rt 90
+fd 50
+pen black, 5
+rt 90 
+fd 100
+lt 90
+fd 50
+rt 90
+fd 231.5
+bk 25
+rt 90
+fd 25
+lt 90
+fd 50
+pen white, .01
+fd 70
+pen black, 5
+fd 25
+lt 90
+fd 100
+lt 90
+fd 105
+bk 25
+lt 90
+fd 25
+bk 100
+lt 90 
+fd 15 
+bk 35
+fd 35
+pen white, .01
+fd 25
+rt 90
+pen black, 5
+fd 45
+bk 20
+rt 90
+fd 15
+bk 15
+rt 90
+fd 75
+bk 50
+rt 90
+fd 35
+bk 35
+lt 90
+fd 25
+lt 90
+fd 105
+bk 45
+rt 90
+fd 75
+pen white, .01
+rt 90
+fd 35
+pen black,5
+rt 90 
+fd 25
+lt 90
+fd 65
+lt 90 
+fd 50
+lt 90
+fd 150
+lt 90
+fd 75
+rt 90
+fd 50
+bk 50
+rt 90
+fd 50
+lt 90
+fd 100
+pen white, .01
+lt 90
+fd 25
+pen black, 5
+lt 90 
+fd 50
+bk 50
+rt 90
+fd 25
+bk 25
+rt 90
+fd 60
+rt 90
+fd 50
+bk 90
+fd 65 
+lt 90
+fd 35
+pen white, .01
+fd 25
+pen black, 5
+lt 90
+fd 25
+lt 90
+fd 25
+rt 90
+fd 40
+lt 90 
+fd 80
+rt 90
+fd 25
+rt 90
+fd 25
+lt 90
+fd 25
+rt 90
+fd 25
+lt 90
+fd 25
+rt 90
+fd 25
+lt 90
+fd 25
+lt 90
+fd 75
+lt 90
+fd 25
+rt 90
+fd 50
+pen white, .01
+fd 50
+pen black, 5
+fd 50
+lt 90
+fd 25
+pen white, .01
+lt 90
+fd 50
+pen black, 5
+fd 25
+bk 25
+rt 90
+fd 30
+lt 90
+fd 25
+bk 25
+lt 90
+fd 90
+rt 90
+fd 75
+lt 90
+fd 50
+rt 90
+fd 210
+bk 25
+rt 90 
+fd 50
+bk 50
+pen white, .01
+bk 25
+pen black, 5
+rt 90
+fd 50
+bk 50
+rt 90
+fd 25
+lt 90
+fd 50 
+bk 50
+rt 90 
+bk 25
+rt 90
+fd 25
+rt 90
+fd 100
+rt 90
+fd 25
+lt 90
+fd 25
+rt 90
+fd 50
+bk 50
+lt 90
+fd 50
+bk 25
+rt 90
+fd 75
+lt 90
+fd 15
+rt 90
+fd 25
+bk 50
+lt 90
+fd 50
+lt 90
+fd 50
+pen white, .01
+fd 25
+lt 90
+fd 20
+pen black, 5
+lt 90
+fd 25
+bk 25
+lt 90
+fd 50
+rt 90 
+fd 50
+lt 90
+fd 10
